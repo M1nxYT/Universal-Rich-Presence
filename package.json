@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js --verbose=true"
+  },
+  "type": "commonjs",
+  "author": "m1nx",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "discord-rich-presence": "^0.0.8",
+    "discord-rpc": "^4.0.1",
+    "forever": "^4.0.3",
+    "node-processlist": "^1.0.2",
+    "node-spotify-api": "^1.1.1",
+    "nodemon": "^2.0.15",
+    "songlink-api": "^1.0.0",
+    "tasklist": "^5.0.0",
+    "vlc.js": "3.1.0"
+  }
+}

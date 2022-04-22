@@ -1,0 +1,9 @@
+{
+  "clientID": "954002382038118480",
+  "profilesDir": "./profiles",
+  "remoteDir": "./remote",
+  "remoteFiles": [
+    "raw.github.com/profile.js"
+  ],
+  "verboseLog": false
+}
