@@ -11,4 +11,6 @@ Run `npm run start` while vlc is open.<br>
 Create and application on the [<ins>Spotify developer dashboard</ins>](https://developer.spotify.com/dashboard/applications).<br>
 Copy your Client id and secret and replace the matching values in the `/config/vlc.config.json` file. <br>
 Update the setup value to true (default: false).<br>
-Run `npm run start` to check that it is working.
+Create a shortcut with the following target and correct file location for your VLC install:<br>
+`C:/Program Files (x86)/VideoLAN/VLC/vlc.exe --extraintf http --http-host localhost --http-password password --http-port 8080`<br>
+Run `npm run start` and then open vlc via the shortcut from above to check that it is working.
